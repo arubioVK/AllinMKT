@@ -1,0 +1,19 @@
+node_modules/
+out/
+dist/
+.taste-skill/
+*.log
+
+# Privado: nunca al repo
+.env
+.env.*
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.pem
+*.key
+credentials*.json
+service-account*.json
+.claude/settings.local.json
+.DS_Store

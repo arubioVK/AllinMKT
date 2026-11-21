@@ -1,0 +1,22 @@
+appId: com.allinmkt.app
+productName: AllinMKT
+directories:
+  buildResources: build
+files:
+  - out/**
+  - package.json
+asarUnpack:
+  - node_modules/better-sqlite3/**
+  - node_modules/ffmpeg-static/**
+linux:
+  target: [AppImage, deb]
+  category: Office
+  maintainer: AllinMKT
+win:
+  target: [nsis]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+extraResources:
+  - from: resources
+    to: resources
