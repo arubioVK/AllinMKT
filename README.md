@@ -58,3 +58,9 @@ src/shared/        tipos compartidos
 ```
 
 Los datos están en el directorio de usuario de la app (`~/.config/AllinMKT` en Linux, `%APPDATA%\AllinMKT` en Windows). Las credenciales se cifran con el llavero del sistema (DPAPI en Windows, libsecret/kwallet en Linux).
+
+## Licencia
+
+Copyright (C) 2026 Alvaro Rubio
+
+AllinMKT es software libre: puedes redistribuirlo y modificarlo según los términos de la [Licencia Pública General de GNU](LICENSE) publicada por la Free Software Foundation, versión 3 o (a tu elección) cualquier versión posterior. Se distribuye sin ninguna garantía.

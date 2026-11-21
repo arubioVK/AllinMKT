@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "Calendario de contenido con IA, publicación multiplataforma y analítica unificada",
   "main": "./out/main/index.js",
-  "author": "AllinMKT",
+  "author": "Alvaro Rubio",
+  "license": "GPL-3.0-or-later",
   "private": true,
   "scripts": {
     "dev": "electron-vite dev --watch",
