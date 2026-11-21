@@ -11,6 +11,7 @@ asarUnpack:
 linux:
   target: [AppImage, deb]
   category: Office
+  syncDesktopName: true
   maintainer: AllinMKT
 win:
   target: [nsis]
