@@ -140,4 +140,4 @@ Las credenciales van en `SECRET_FIELDS` y los tokens OAuth en `tokens:<plataform
 - Con `closeToTray` (activado por defecto), cerrar la ventana deja la app en la bandeja. Se apaga del todo con bandeja › Salir.
 - Datos: `~/.config/AllinMKT` en Linux y `%APPDATA%\AllinMKT` en Windows.
 - Puerto OAuth: 8765 por defecto (`redirectUri()` → `http://127.0.0.1:8765/callback`). Esa URL hay que registrarla en cada app de desarrollador.
-- El repositorio todavía no tiene commits (rama `master`; la rama principal para PRs es `main`).
+- Repositorio **público** en GitHub (`git@github.com:arubioVK/AllinMKT.git`), rama principal `main`. No subas nada privado: credenciales, `.env`, bases de datos ni datos del usuario (el `.gitignore` ya los excluye).
