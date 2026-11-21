@@ -2,7 +2,7 @@
   "name": "allinmkt",
   "productName": "AllinMKT",
   "desktopName": "allinmkt.desktop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calendario de contenido con IA, publicación multiplataforma y analítica unificada",
   "main": "./out/main/index.js",
   "author": "Alvaro Rubio",
